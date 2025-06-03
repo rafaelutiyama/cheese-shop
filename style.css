@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 :root {
 	--cor-queijo: #F2C94C;
@@ -84,3 +85,47 @@
   margin-inline: auto;
   height: 80vh;
 }
+=======
+:root {
+	--cor-queijo: #F2C94C;
+	--cor-marrom: #6C3B2A;
+	--cor-fundo-claro: #FFF9F1;
+	--cor-verde: #9EAC71;
+	--cor-texto: #2E2E2E;
+	--cor-texto-suave: #6E665B;
+}
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+/* Navbar */
+.navigation-container {
+  background-color: var(--cor-verde);
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile-nav {
+
+}
+.navbar {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* Hero Section */
+.hero-image-container {
+  background-image: url("cheese_hero_section_image.jpg");
+  margin-inline: auto;
+  height: 80vh;
+}
+>>>>>>> e00a675 (Seçao inicial)
